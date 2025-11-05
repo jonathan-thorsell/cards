@@ -1,0 +1,37 @@
+:root {
+    --black: #000000;
+    --light-black: #1a1a1a;
+    --lighter-black: #666666;
+    --gray: #a8a8a8;
+    --lighter-gray: #D9D9D9;
+    --really-light-gray: #ededed;
+    --white: #ffffff;
+
+    --vibrant-orange: #ff5842;
+    --light-red: #FF5842;
+    --red-pink: #ff8271;
+    --pink: #f29cff;
+    --yellow: #ffcd71;
+    --dreamy-blue: #90afff;
+    --sky-blue: #4E80FF;
+    --navy-blue: #4A42BC;
+    --pastel-green: #42ff75;
+    --mint-green: #71ff97;
+
+
+    --text-font: "Inter", sans-serif;
+}
+
+
+body {
+    font-family: var(--text-font);
+    background-color: var(--white);
+    color: var(--black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+h1 {font-size: 5rem}
+h2 {font-size: 3rem}
+h3 {font-size: 2rem}
