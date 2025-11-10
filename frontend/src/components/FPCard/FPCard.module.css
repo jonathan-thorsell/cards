@@ -1,0 +1,7 @@
+.card {
+    display: inline;
+    padding: .5rem;
+    background-color: var(--pink);
+    border-radius: var(--default-border-radius);
+    box-shadow: var(--default-drop-shadow);
+}

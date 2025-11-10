@@ -10,6 +10,7 @@
     --vibrant-orange: #ff5842;
     --light-red: #FF5842;
     --red-pink: #ff8271;
+    --hotter-pink: #E642FF;
     --pink: #f29cff;
     --yellow: #ffcd71;
     --dreamy-blue: #90afff;
@@ -18,6 +19,9 @@
     --pastel-green: #42ff75;
     --mint-green: #71ff97;
 
+    --default-border-radius: 4px;
+
+    --default-drop-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     --text-font: "Inter", sans-serif;
 }

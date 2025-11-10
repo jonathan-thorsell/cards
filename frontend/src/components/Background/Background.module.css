@@ -3,6 +3,16 @@
     width: 100%;
     min-height: 100vh;
     display: flex;
+    position: relative;
+}
+.blob {
+    position: absolute;
+    z-index: -1;
+}
+.blueBlob {
+    bottom: 0;
+    height: 50vh;
+    /* background-color: red; */
 }
 
 .container {

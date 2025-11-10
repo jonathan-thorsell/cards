@@ -1,4 +1,5 @@
 import Background from "../../components/Background/Background";
+import FPCard from "../../components/FPCard/FPCard";
 
 import styles from './Landing.module.css';
 
@@ -10,7 +11,7 @@ function Landing() {
         <h2 className={styles.subtitle}>BY NTIG</h2>
       </div>
       {/* todo make a component here */}
-      <h3 className={styles.description}>Ett enklare sätt att lära sig glosor</h3>
+      <h3 className={styles.description}>Ett enklare sätt att lära sig <FPCard innerText="glosor"/></h3>
       {/* button component */}
       
     </Background>
