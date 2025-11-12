@@ -1,0 +1,17 @@
+.button {
+    height: 3.5rem;
+    width: 11rem;
+    border: none;
+    border-radius: 9999px;
+    background-color: var(--sky-blue);
+    color: var(--white);
+    font: inherit;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: var(--default-drop-shadow);
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: color-mix(in srgb, var(--sky-blue) 85%, black);
+}

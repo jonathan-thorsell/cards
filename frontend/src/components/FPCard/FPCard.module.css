@@ -1,7 +1,11 @@
 .card {
     display: inline;
     padding: .5rem;
-    background-color: var(--pink);
+    background-color: var(--card-color);
     border-radius: var(--default-border-radius);
     box-shadow: var(--default-drop-shadow);
+}
+
+.clickable {
+    cursor: pointer;
 }

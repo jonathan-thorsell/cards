@@ -5,18 +5,31 @@
     display: flex;
     position: relative;
 }
+.container {
+    min-height: 100vh;
+    width: 100%;
+    flex: 1; 
+}
+
 .blob {
     position: absolute;
     z-index: -1;
 }
+
+
 .blueBlob {
     bottom: 0;
     height: 50vh;
     /* background-color: red; */
 }
 
-.container {
-    min-height: 100vh;
-    width: 100%;
-    flex: 1; 
+.greenBlob {
+    height: 77.5vh;
+    bottom: -.75vh;
+    left: -8vh;
+}
+
+.redBlob {
+    top: -2vh;
+    right: -.75vh;
 }
